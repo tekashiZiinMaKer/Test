@@ -18,6 +18,32 @@ import time
 import socket
 import random
 
-#start
-os.sys('clear')
-os.sys('figlet miau')
+#layout
+os.system("clear")
+os.system("figlet Temp-Mail")
+print
+print('=' *43)
+print(' [1] - VISA')         
+print(' [2] - MASTER')
+print(' [3] - BIN')
+print(' by tekashiZiinMaker ')
+print('-' *43)
+#Estruturas
+while True:
+    op = int(input(' select an option: '))
+    cvv = random.randrange(1,999)
+    mes = random.randint(1,12)
+    ano = data + random.randint(1,7)
+    cc = random.randrange(1,9999999999)
+    if op == 1:
+        bin = 407347
+        con += 1
+        print('-' * 43)
+        print('')
+        print(' CC VISA GENERATED #{}'.format(con))
+        print('')
+        print(' Cartão: {}{}'.format(bin, cc))
+        print(' Cvv: {}'.format(cvv))
+        print(' Validade: mês {} de {}'.format(mes, ano))
+        print('-' *43)
+    elif op == 2: 
