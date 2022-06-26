@@ -31,15 +31,12 @@ print('<----------------------------------------->')
 #Estruturas
 while True:
     op = int(input(' select an option: '))
-    mes = random.randint(1,12)
-    ano = data + random.randint(1,7)
     if op == 1:    
         print('Hello guys! My Name is tekashi, thanks For using my painel')
     elif op == 2: 
         print('oi gatinha')
-
     elif op < 1:
-        imprima( ' ' )
+        print( ' ' )
         print( ' Gerador fechado com sucesso! ' )
         print( ' ' )
         stop
