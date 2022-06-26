@@ -26,25 +26,26 @@ print('<----------------------------------------->')
 print(' [1] - Gmail')         
 print(' [2] - Hotmail')
 print(' [3] - about')
-print(' by tekashiZiinMaker ')
+print(' by tekashiZiin ')
 print('<----------------------------------------->')
 #Estruturas
 while True:
     op = int(input(' select an option: '))
-    cvv = random.randrange(1,999)
     mes = random.randint(1,12)
     ano = data + random.randint(1,7)
-    cc = random.randrange(1,9999999999)
-    if op == 1:
-        bin = 407347
-        con += 1
-        print('-' * 43)
-        print('')
-        print(' CC VISA GENERATED #{}'.format(con))
-        print('')
-        print(' Cartão: {}{}'.format(bin, cc))
-        print(' Cvv: {}'.format(cvv))
-        print(' Validade: mês {} de {}'.format(mes, ano))
-        print('-' *43)
+    if op == 1:    
+        print('Hello guys! My Name is tekashi, thanks For using my painel')
     elif op == 2: 
         print('oi gatinha')
+
+    elif op < 1:
+        imprima( ' ' )
+        print( ' Gerador fechado com sucesso! ' )
+        imprima( ' ' )
+        parar
+    senão:
+        imprima( ' - '  * 43)
+        print( ' Erro! digite novamente! ' )
+        imprima( ' - '  * 43)
+    print( ' Melhor Gerador de Temp Mail! ' )
+    imprima( ' ' )
