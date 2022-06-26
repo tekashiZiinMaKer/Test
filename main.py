@@ -47,3 +47,4 @@ while True:
         print(' Validade: mês {} de {}'.format(mes, ano))
         print('-' *43)
     elif op == 2: 
+        print('oi gatinha')
