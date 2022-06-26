@@ -43,7 +43,8 @@ while True:
         print( ' Gerador fechado com sucesso! ' )
         print( ' ' )
         stop
-    senão:print( ' - '  * 43)
+    else:
+        print( ' - '  * 43)
         print( ' Erro! digite novamente! ' )
         print( ' - '  * 43)
     print( ' Melhor Gerador de Temp Mail! ' )
