@@ -41,11 +41,11 @@ while True:
     elif op < 1:
         imprima( ' ' )
         print( ' Gerador fechado com sucesso! ' )
-        imprima( ' ' )
-        parar
+        print( ' ' )
+        stop
     senão:
-        imprima( ' - '  * 43)
+        print( ' - '  * 43)
         print( ' Erro! digite novamente! ' )
-        imprima( ' - '  * 43)
+        print( ' - '  * 43)
     print( ' Melhor Gerador de Temp Mail! ' )
-    imprima( ' ' )
+    print( ' ' )
